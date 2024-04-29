@@ -22,8 +22,8 @@ function getCurrentUIValues() {
 // Call a function to calculate the current monthly payment
 function setupIntialValues() {
   const loanAmount = document.getElementById('loan-amount');
-  const loanYears = document.getElementById('loan-years')
-  const 
+  const loanYears = document.getElementById('loan-years');
+  const loanRate = document.getElementById('loan-rate');
 }
 
 // Get the current values from the UI
