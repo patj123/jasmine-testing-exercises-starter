@@ -24,11 +24,17 @@ function setupIntialValues() {
   const loanAmount = document.getElementById('loan-amount');
   const loanYears = document.getElementById('loan-years');
   const loanRate = document.getElementById('loan-rate');
+  const initialValues = {amount: 100000, years: 3, rate: 5};
+  loanAmount.value = initialValues.amount;
+  loanYears.value = initialValues.years;
+  loanRate.value = initialValues.rate;
 }
 
 // Get the current values from the UI
 // Update the monthly payment
 function update() {
+  const initialUIValues = getCurrentUIValues();
+  
 }
 
 // Given an object of values (a value has amount, years and rate ),
